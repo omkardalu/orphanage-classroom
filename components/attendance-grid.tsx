@@ -148,7 +148,7 @@ export function AttendanceGrid({ classes, initialMarked }: AttendanceGridProps) 
         <button
           onClick={handleSubmit}
           disabled={isPending}
-          className="action-btn flex items-center gap-2 px-8 bg-teal-700 hover:bg-teal-800 text-white shadow-lg disabled:opacity-60 disabled:cursor-not-allowed"
+          className="action-btn flex items-center gap-2 py-3 rounded-xl px-8 bg-teal-700 hover:bg-teal-800 text-white shadow-lg disabled:opacity-60 disabled:cursor-not-allowed"
         >
           {isPending ? (
             <Loader2 className="w-4 h-4 animate-spin" />

@@ -109,7 +109,7 @@ export function MoodPicker({ classId, className, existing }: MoodPickerProps) {
         <button
           onClick={handleSave}
           disabled={isPending || total === 0}
-          className="action-btn flex items-center gap-2 px-6 bg-teal-700 hover:bg-teal-800 text-white disabled:opacity-50 disabled:cursor-not-allowed"
+          className="action-btn flex items-center gap-2 px-6 py-3 rounded-xl bg-teal-700 hover:bg-teal-800 text-white disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {isPending ? (
             <Loader2 className="w-4 h-4 animate-spin" />
