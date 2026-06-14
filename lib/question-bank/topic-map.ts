@@ -13,48 +13,46 @@ export const TOPIC_INFO: Record<string, TopicInfo> = {
   addition:         { label:"Addition",            emoji:"➕", description:"Adding numbers together",                 subject:"math",      grade:"primary"   },
   subtraction:      { label:"Subtraction",         emoji:"➖", description:"Taking numbers away",                     subject:"math",      grade:"primary"   },
   multiplication:   { label:"Multiplication",      emoji:"✖️", description:"Repeated addition",                       subject:"math",      grade:"primary"   },
-  shapes:           { label:"Shapes & Geometry",   emoji:"🔷", description:"2D and 3D shapes",                        subject:"math",      grade:"primary"   },
-  counting:         { label:"Counting & Numbers",  emoji:"🔢", description:"Numbers and counting patterns",           subject:"math",      grade:"primary"   },
   // Middle School Math
   algebra:          { label:"Algebra",             emoji:"🔣", description:"Equations, variables, expressions",       subject:"math",      grade:"middle"    },
   percentages:      { label:"Percentages",         emoji:"💯", description:"Percents, discounts, profit & loss",      subject:"math",      grade:"middle"    },
-  ratios:           { label:"Ratios & Proportion", emoji:"⚖️", description:"Ratios, rates, proportional reasoning",   subject:"math",      grade:"middle"    },
-  decimals:         { label:"Decimals",            emoji:"🔟", description:"Decimal numbers and operations",          subject:"math",      grade:"middle"    },
-  statistics:       { label:"Statistics & Probability", emoji:"📊", description:"Mean, median, mode, probability",   subject:"math",      grade:"middle"    },
+  // ratios:           { label:"Ratios & Proportion", emoji:"⚖️", description:"Ratios, rates, proportional reasoning",   subject:"math",      grade:"middle"    },
+  // decimals:         { label:"Decimals",            emoji:"🔟", description:"Decimal numbers and operations",          subject:"math",      grade:"middle"    },
+  // statistics:       { label:"Statistics & Probability", emoji:"📊", description:"Mean, median, mode, probability",   subject:"math",      grade:"middle"    },
   // High School Math
-  trigonometry:     { label:"Trigonometry",        emoji:"📐", description:"Sin, cos, tan and right triangles",       subject:"math",      grade:"high"      },
-  calculus:         { label:"Calculus Basics",     emoji:"∫",  description:"Derivatives, integrals, limits",          subject:"math",      grade:"higher"    },
+  // trigonometry:     { label:"Trigonometry",        emoji:"📐", description:"Sin, cos, tan and right triangles",       subject:"math",      grade:"high"      },
+  // calculus:         { label:"Calculus Basics",     emoji:"∫",  description:"Derivatives, integrals, limits",          subject:"math",      grade:"higher"    },
   // Primary English
   alphabet:         { label:"Alphabet",            emoji:"🔤", description:"Letters A to Z, vowels & consonants",     subject:"english",   grade:"primary"   },
-  spelling:         { label:"Spelling",            emoji:"✏️", description:"How to spell common words",               subject:"english",   grade:"primary"   },
-  grammar:          { label:"Grammar",             emoji:"📝", description:"Sentences, nouns, verbs, punctuation",    subject:"english",   grade:"primary"   },
-  reading:          { label:"Reading",             emoji:"📖", description:"Reading comprehension",                   subject:"english",   grade:"primary"   },
+  // spelling:         { label:"Spelling",            emoji:"✏️", description:"How to spell common words",               subject:"english",   grade:"primary"   },
+  // grammar:          { label:"Grammar",             emoji:"📝", description:"Sentences, nouns, verbs, punctuation",    subject:"english",   grade:"primary"   },
+  // reading:          { label:"Reading",             emoji:"📖", description:"Reading comprehension",                   subject:"english",   grade:"primary"   },
   // Primary Science
   animals:          { label:"Animals",             emoji:"🦁", description:"Living creatures and their features",     subject:"science",   grade:"primary"   },
-  plants:           { label:"Plants",              emoji:"🌱", description:"How plants grow and photosynthesis",       subject:"science",   grade:"primary"   },
-  weather:          { label:"Weather & Seasons",   emoji:"⛅", description:"Types of weather and seasons",            subject:"science",   grade:"primary"   },
+  // plants:           { label:"Plants",              emoji:"🌱", description:"How plants grow and photosynthesis",       subject:"science",   grade:"primary"   },
+  // weather:          { label:"Weather & Seasons",   emoji:"⛅", description:"Types of weather and seasons",            subject:"science",   grade:"primary"   },
   // Advanced Science
   physics:          { label:"Physics",             emoji:"⚡", description:"Forces, motion, energy, electricity",     subject:"science",   grade:"high"      },
   chemistry:        { label:"Chemistry",           emoji:"⚗️", description:"Elements, compounds, reactions, pH",      subject:"science",   grade:"high"      },
   biology:          { label:"Biology",             emoji:"🧬", description:"Cells, DNA, evolution, ecosystems",       subject:"science",   grade:"high"      },
-  human_body:       { label:"Human Body",          emoji:"🫀", description:"Organs, systems, health",                 subject:"science",   grade:"middle"    },
+  // human_body:       { label:"Human Body",          emoji:"🫀", description:"Organs, systems, health",                 subject:"science",   grade:"middle"    },
   // Social/Moral
   moral_values:     { label:"Moral Values",        emoji:"💛", description:"Kindness, honesty and empathy",           subject:"social",    grade:"primary"   },
   emotions:         { label:"Emotions",            emoji:"😊", description:"Understanding feelings",                  subject:"social",    grade:"primary"   },
-  friendship:       { label:"Friendship",          emoji:"🤝", description:"Being a good friend",                     subject:"social",    grade:"primary"   },
+  // friendship:       { label:"Friendship",          emoji:"🤝", description:"Being a good friend",                     subject:"social",    grade:"primary"   },
   // Humanities
   history:          { label:"History",             emoji:"🏛️", description:"World and Indian history",                subject:"humanities",grade:"middle"    },
-  geography:        { label:"Geography",           emoji:"🌍", description:"Continents, rivers, climate, maps",       subject:"humanities",grade:"middle"    },
+  // geography:        { label:"Geography",           emoji:"🌍", description:"Continents, rivers, climate, maps",       subject:"humanities",grade:"middle"    },
   economics:        { label:"Economics",           emoji:"📈", description:"GDP, inflation, markets, banking",        subject:"humanities",grade:"high"      },
   // Computer Science
   programming:      { label:"Programming Basics",  emoji:"💻", description:"Variables, loops, conditionals, HTML/CSS",subject:"cs",        grade:"middle"    },
-  data_structures:  { label:"Data Structures",     emoji:"🗄️", description:"Arrays, stacks, queues, sorting",         subject:"cs",        grade:"high"      },
-  networks:         { label:"Computer Networks",   emoji:"🌐", description:"TCP/IP, HTTP, DNS, firewalls, OSI model", subject:"cs",        grade:"high"      },
+  // data_structures:  { label:"Data Structures",     emoji:"🗄️", description:"Arrays, stacks, queues, sorting",         subject:"cs",        grade:"high"      },
+  // networks:         { label:"Computer Networks",   emoji:"🌐", description:"TCP/IP, HTTP, DNS, firewalls, OSI model", subject:"cs",        grade:"high"      },
   // Higher Education
   dbms:             { label:"Database Management", emoji:"🗃️", description:"SQL, normalisation, ACID, joins",          subject:"cs",        grade:"higher"    },
   operating_systems:{ label:"Operating Systems",   emoji:"🖥️", description:"Process scheduling, memory, deadlocks",   subject:"cs",        grade:"higher"    },
   // General
-  colors:           { label:"Colors",              emoji:"🎨", description:"Colours and colour mixing",                subject:"general",   grade:"primary"   },
+  // colors:           { label:"Colors",              emoji:"🎨", description:"Colours and colour mixing",                subject:"general",   grade:"primary"   },
 };
 
 // ─── KEYWORD MAP ──────────────────────────────────────────────────────────────
